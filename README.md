@@ -1,7 +1,5 @@
 # Candidate-Management
-HTML is still kinda clunky, trying to complete all the elements so I can cut down on all the bootstrap styling .
+V1.3 Has an almost fully-functional sidebar for position management (adding, editing, and deleting positions). Candidate datatable for the respective positions is still a WIP, but it will be generated as an onclick function of "view" button.
 
 Current problems
-1.) Admin Dashboard bootstrap css bleeds into Candidate Information Management css (still fixing)
-2.) Deciding whether the sidenav should still be included since the data table can pretty much load all candidate data and present it
-3.) Search and Pagination elements of the data table still not added
+1.) Current iteration of datatable generation is purely run on linked scripts and stylesheets which make editing and customizing datatable a bit problematic, still trying to find a simpler or better approach to it.
