@@ -317,6 +317,9 @@ img.logos{
   margin-top: 0px;
   max-width: 700px;
 } 
+
+
+
 /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
 @media (max-width: 600px) {
   body, section, .container {
@@ -412,29 +415,55 @@ div p.elec-guide-txt{
 .tableContainer{
   width: 50%;
   height: 100%;
+  padding-left: 40px;
   padding-top: 20px;
-  padding-left: 20px;
+  display: inline-block;
 
 }
+
+.table_Container{
+  width: 50%;
+  height: 100%;
+  padding-top: 40px;
+  float: right;
+  display: inline-block;
+}
+
+
 /*The sidetable itself*/
 .sidetable{
-  width: 60%;
+  width: 100%;
   height: 100%;
   box-shadow: 0 10px 20px rgba(0, 0, 0, .15 ),
               0 3px 6px rgba(0, 0, 0, .23);
-border-spacing: 50px;
+display: inline-block;
+border-radius: 4px;
+overflow: hidden;
+
+}
+
+.sidetable tr{
+   font-family: Roboto Regular, sans-serif;
+  width: 100%;
+  height: 100%;
+  padding: 10px 5px 5px;
+  background-color: #ffc423;
+  color: white;
 }
 
 /*Header and Header Content*/
 .sidetable th{
   font-family: Roboto Regular, sans-serif;
-  width: 100%;
+  width: 60%;
   height: 100%;
-  padding: 6px 5px;
+  padding: 10px 10px 5px;
   font-size: 1.6em;
   background-color: #1d6986;
   color: white;
-  word-break: break-all;
+  overflow: hidden;
+  white-space: nowrap;
+
+
 }
 
 .sidetable tbody{
@@ -448,10 +477,11 @@ border-spacing: 50px;
 .sidetable td{
   font-family: Roboto Regular, sans-serif;
   font-size: 1.6em;
-   padding: 6px 5px;
+  padding: 6px 10px 5px;
   color: black;
-  word-break: break-all;
   font-weight: bold;
+  border-spacing: 5px;
+  word-break: break-all;
 }
 
 .button_edit{
@@ -563,7 +593,6 @@ display: inline-block;
   background-color: #1d6986;
   box-shadow: 0 10px 20px rgba(0, 0, 0, .15 ),
               0 3px 6px rgba(0, 0, 0, .23);
-
 }
 
 .panel-primary > .panel-heading {
@@ -590,7 +619,6 @@ display: inline-block;
   margin-bottom: 15px;
 }
 
-
 .input[type=text]{
   width: 100%;
   height: 100%;
@@ -611,3 +639,232 @@ display: inline-block;
   background-color: #ffc423;
   border:none;}
 
+@media all and (max-width: 968px) {
+ .tableContainer{
+  width: 50%;
+  height: 100%;
+  padding-left: 20px;
+  display: inline-block;
+  margin-left: 0px;
+  margin-right:0px;
+  float: left;
+
+}
+
+.table_Container{
+  width: 50%;
+  height: 100%;
+  padding-top: 20px;
+  padding-left: 20px;
+  float:left;
+  display: inline-block;
+}
+
+
+/*The sidetable itself*/
+.sidetable{
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .15 ),
+              0 3px 6px rgba(0, 0, 0, .23);
+display: inline-block;
+border-radius: 4px;
+overflow: hidden;
+}
+
+.sidetable tr{
+   font-family: Roboto Regular, sans-serif;
+  width: 100%;
+  height: 100%;
+  padding: 10px 5px 5px;
+  background-color: #ffc423;
+  color: white;
+}
+
+/*Header and Header Content*/
+.sidetable th{
+  font-family: Roboto Regular, sans-serif;
+  width: 60%;
+  height: 100%;
+  padding: 10px 5px 5px;
+  font-size: 1.6em;
+  background-color: #1d6986;
+  color: white;
+  border-spacing: 1px;
+  overflow: hidden;
+  white-space: nowrap;
+
+}
+
+.sidetable tbody{
+  width: 100%;
+  height:100%;
+  background-color: #ffc423;
+  font-size: 1em;
+}
+
+/*Body Content = Position + Two Buttons*/
+.sidetable td{
+  font-family: Roboto Regular, sans-serif;
+  font-size: 1.6em;
+   padding: 6px 10px 5px;
+  color: black;
+  font-weight: bold;
+  border-spacing: 5px;
+  word-break: break-all;
+}
+
+.button_edit{
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-color: #228B22;
+  color:white;
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.button_delete{
+display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-color:#CD0000;
+    color:white;
+  outline:none; 
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.button_add{
+ display: inline-block;
+  color: white;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-color: #1d6986;
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  float: right;
+}
+
+.button_view{
+ display: inline-block;
+  color: white;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-color: #1d6986;
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  float: right;
+}
+
+.CMcontent{
+  margin-left: 200px;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.panel-primary{
+  width: 125%;
+  height: 100%;
+  margin-top: 20px;
+  border:none;
+  background-color: #1d6986;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .15 ),
+              0 3px 6px rgba(0, 0, 0, .23);
+}
+
+.panel-primary > .panel-heading {
+  width: 100%
+  height: 100%;
+  margin-top: 20px;
+  padding: 6px 5px;
+  background-color: #1d6986;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .15 ),
+              0 3px 6px rgba(0, 0, 0, .23);
+  font-size: 1.6em;
+}
+
+.panel-body{
+  width: 100%;
+  height: 100%;
+  background-color: #ffc423;
+  padding: 6px 5px;
+  font-size: 1.6em;
+
+}
+
+.form-group{
+  margin-bottom: 15px;
+}
+
+.input[type=text]{
+  width: 100%;
+  height: 100%;
+  font-family: Generica Regular, sans-serif
+}
+
+.form-control{
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 6px 5px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;}
+
+.panel-footer{
+  padding: 6px 5px;
+  background-color: #ffc423;
+  border:none;}
