@@ -1,5 +1,11 @@
 # Candidate-Management
-V1.3 Has an almost fully-functional sidebar for position management (adding, editing, and deleting positions). Candidate datatable for the respective positions is still a WIP, but it will be generated as an onclick function of "view" button.
+V1.4 Is the Position Manager, it has a fully functional form panel for adding and editing positions, makeshift data table is functional as well.
+V1.4.1 Is the Candidate Information Manager, working pagination, and search functions; add, edit, and delete functions are not yet available.
 
-Current problems
-1.) Current iteration of datatable generation is purely run on linked scripts and stylesheets which make editing and customizing datatable a bit problematic, still trying to find a simpler or better approach to it.
+Both 1.4 and 1.4.1 isn't connected to any databases.
+
+Landing Page anchors haven't been connected to proper links here in the GitHub version yet, but will be corrected ASAP.
+
+All styles are still being compressed into one file.
+
+User-side UI has only been started.
