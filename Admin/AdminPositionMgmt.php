@@ -24,18 +24,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta charset="utf-8">
     <link rel="icon" href="../IMG/buceils-logo.png" type="image/png">
-    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
-    <link rel="stylesheet" href="../CSS/bootstrap.css">
-    <link rel="stylesheet" href="../CSS/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/style_AdminCandidMgmt.css.css">
+    <link rel="stylesheet" href="../CSS/bootstrap_AdminCandidMgmt.css">
+    <link rel="stylesheet" href="../CSS/font-awesome_AdminCandidMgmt.css">
 
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     
     <!-- datatable scripts -->
-    <script src="../JS/jquery-1.11.1.min.js"></script>
-    <script src="../JS/jquery.dataTables.min.js"></script>
-    <script src="../JS/dataTables.bootstrap.js"></script>
-    <script src="../JS/bootstrap.min.js"></script>
+    <script src="../JS/jQuery.dataTables_CandidMgmt.min.js"></script>
+    <script src="../JS/dataTables.bootstrap_CandidMgmt.js"></script>
+    <script src="../JS/bootstrap.min_CandidMgmt.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>    
     <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>   
 
