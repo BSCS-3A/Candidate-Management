@@ -18,18 +18,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta charset="utf-8">
     <link rel="icon" href="../IMG/BUHS_LOGO.png" type="image/png">
-    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
-    <link rel="stylesheet" href="../CSS/bootstrap.css">
-    <link rel="stylesheet" href="../CSS/font-awesome.css">
-    <link rel="stylesheet" href="https://unpkg.com/simplebar@2.0.1/umd/simplebar.css" />
-<script src="https://unpkg.com/simplebar@2.0.1/umd/simplebar.js"></script>
+    <link rel="stylesheet" type="text/css" href="../CSS/style_AdminCandidMgmt.css">
+    <link rel="stylesheet" href="../CSS/bootstrap_AdminCandidMgmt.css">
+    <link rel="stylesheet" href="../CSS/font-awesome_AdminCandidMgmt.css.css">
+
     
-    <!-- <script src="assets/js/a076d05399.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="../JS/dataTables.bootstrap.min.js"></script>
-    <!-- <script src="../JS/jquery-3.5.1.js"></script> -->
-    <script src="../JS/jquery.dataTables.min.js"></script>
-    <script src="../JS/bootstrap.min.js"></script> 
+    <script src="../JS/dataTables.bootstrap_CandidMgmt.min.js"></script>
+    <script src="../JS/jQuery.dataTables_CandidMgmt.min.js"></script>
+    <script src="../JSbootstrap.min_CandidMgmt.js"></script> 
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     
 <script>
