@@ -318,7 +318,10 @@
     <div class="btn-toolbar" style="margin-left: 18px;">
         <button class="btn btn-button1 btn-s" data-title="Add" data-toggle="modal" data-target="#add" data-placement="top" title="Add"> + Add New Candidate </button>      
     </div>
+ <div class = "container">
+      <div class = "row">
               <div class="col-md-12">
+                  <div class ="table-responsive table-body">
                   
       <table class= "center" id="datatable" width="100%" cellspacing="0" cellpadding="2px">
                           <thead>
