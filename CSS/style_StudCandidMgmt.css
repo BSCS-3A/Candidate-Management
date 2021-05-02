@@ -11,14 +11,15 @@
   width: 20%;
   height: 100%;
   margin-left: 20px;
+  display: flex;
 }
 
 .Uright{
-width: 70%;
-height: 100%;
-float: left;
-margin-left: auto;
-margin-right: auto;}
+  width: 100%;
+  height: 100%;
+  float: left;
+  display: flex;
+}
 
 
  table.center {
@@ -29,30 +30,28 @@ margin-right: auto;}
     #side_pos thead{
    color: #EEEEEE;
    background-color: #18566e;
-   overflow: hidden;
+   /*overflow: hidden;*/
    font-size: 17px;
   }
-  #side_pos tbody {
-  overflow: hidden;
-  border-radius: 4px;
-    }
   #side_pos th {
       color: #EEEEEE;
       background-color: #18566e;
-      overflow: hidden;
       font-size: 1.2em;
       text-align: left;
       padding-left: 9px;
+      border-radius: 4px;
 
     }
   #side_pos td {
       padding: 10px 10px 10px 10px;
-      max-width: 150px;
-      max-height: 150px;
-      overflow: hidden;
+      /*max-width: 170px;
+      max-height: 170px;
+      overflow: hidden;*/
       font-size: 20px;
       text-align: left;
       background-color: #fece4b;
+      width: 170px;
+      border-radius: 4px;
 }
 
 #side_pos button{
@@ -266,7 +265,19 @@ nav img.Auser-profile{
   margin-left: 40px;
 } */
 
+
+@media all and (max-width: 1200px) {
+
+  .Uright{
+    margin-left: 100px;
+  }
+  }
+
 @media all and (max-width: 968px) {
+
+  .Uright{
+    margin-left: 100px;
+  }
   nav ul{
     margin-right: 0px;
     margin-left: 0px;
@@ -396,12 +407,31 @@ img.Alogos{
   margin-top: 0px;
   max-width: 700px;
 } 
+
 /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
 @media (max-width: 600px) {
-  body, section, .Acontainer {
+  body, section,  .Uwrapper{
     -webkit-flex-direction: column;
-    flex-direction: column;
   }
+
+.Uleft {
+   padding-bottom: 25px;
+
+  }
+.Uright{
+  overflow-y:scroll;
+  margin-left: auto;
+  height: 350px;
+  margin-right: auto;
+  width:320px;
+}
+.column{
+  margin:0px;
+}
+
+.scroll{
+  padding-bottom: 5px;
+}
 }
 
 
@@ -480,20 +510,30 @@ footer{
   letter-spacing: 7px;
 }
 
-img {
+.avatar img {
 border-radius:50%;
-width:80%;
-height:50%;
+max-width: 150px;
+max-height:150px;
+display: flex;
+margin-right: auto;
+margin-left: auto;
 }
 
 .column {
-  float: right;
-  width: 25%;
-  padding: 0 10px;
-
+    flex-basis:25%;
+    float: right;
+    padding: 0 10px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.Urow {margin: 0 -5px;
+.Urow {
+    margin: 0 -5px;
+    display:flex;
+    margin-right: auto;
+    margin-left: auto;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -501,6 +541,8 @@ height:50%;
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
+  width: 270px;
+  max-width: 270px;
   }
 
 #profile h3{
@@ -617,3 +659,4 @@ footer{
   margin-top: 0;
   text-align: left;
 }
+
