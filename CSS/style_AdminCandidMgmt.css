@@ -329,7 +329,7 @@
   } 
   /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
   @media (max-width: 600px) {
-    body, section, #ADaside-container, #ADcountdown, #AD-CD-contents {
+    body, section, #ADaside-container, #ADcountdown, #AD-CD-contents, .wrapper {
       -webkit-flex-direction: column;
       flex-direction: column;
     }
