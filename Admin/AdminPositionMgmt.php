@@ -184,8 +184,11 @@
         </div>
 </form>
         <div class = "right">
+		<div class = "container">
+			<div class = "row">
           <div class = "center" id = CPTable>
             <div class="col-md-12">
+		    <div class ="table-responsive table-body">
               <table class= "center" id="datatable" width="100%" cellspacing="0" cellpadding="2px">
               <thead>
                               <tr> 
@@ -217,9 +220,12 @@
                               </tbody>
                             </table>
                           </div>
-                        </div>
-                        </div>
-                     </div>
+		        </div>
+		      </div>
+	             </div>
+                   </div>
+                 </div>
+                </div>
 
 <!--Start of form panel scripts
 <script>
@@ -370,6 +376,12 @@
         $('.icon').click(function () {
             $('span').toggleClass("cancel");
         });
+	    /**Added this move to edit/add panel function for mobile QoL**/
+        $("button").click(function() {
+    	$('html,body').animate({
+        scrollTop: $(".left").offset().top},
+        'slow');
+});
     </script>
 
 </body>
