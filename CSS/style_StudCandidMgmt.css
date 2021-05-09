@@ -73,7 +73,7 @@
   padding: 0;
   user-select: none;
   box-sizing: border-box;
-  list-style: none;  
+  list-style: none;
 }
 body{  
   font-family: Roboto,Roboto Thin,Generica, sans-serif;  
@@ -510,14 +510,7 @@ footer{
   letter-spacing: 7px;
 }
 
-.avatar img {
-border-radius:50%;
-max-width: 150px;
-max-height:150px;
-display: flex;
-margin-right: auto;
-margin-left: auto;
-}
+.avatar img {border-radius:50%;max-width: 150px;max-height:150px;display: flex;margin-right: auto;margin-left: auto;object-fit: cover;width: 238px;height: 150px;}
 
 .column {
     flex-basis:25%;
@@ -660,3 +653,8 @@ footer{
   text-align: left;
 }
 
+.avatar{
+  width: 238px;
+  height: 150px;
+  overflow: hidden;
+}
